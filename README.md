@@ -8,7 +8,7 @@ Le plus petit nombre a(n) qui est la somme de 2 cubes entiers positifs (x<sub>i<
 Ci-dessous, l'ensemble des solutions classées par ordre croissant de valeurs et décroissant de n.
 
 **Remarques**
-- Les valeurs x<sub>2</sub> à x<sub>6</sub> ont un rapport de **79** entre a(5) et a(6)
+- Les valeurs x<sub>i</sub> (sauf pour x<sub>1</sub>) ont un rapport de **79** entre a(5) et a(6)
 - Les valeurs x<sub>i</sub> (sauf pour x<sub>3</sub>) ont un rapport de **101** entre a(6) et a(7)
 - Si on multiplie les x<sub>i</sub> de a(5) par **79** ou **139** ou un multiple de 79 ou un multiple de 139, on obtient un multiple de a(6)
 - Certains x<sub>i</sub> ont une différence multiple de **11**: {1,12}, {414,436}, {331954,365757}, {27093208,28906206}
