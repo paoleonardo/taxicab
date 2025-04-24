@@ -1,4 +1,4 @@
-# Taxicab numbers and their decomposition
+# Taxicab numbers and their prime factor decomposition
 
 **EN**\
 Refers to https://oeis.org/A011541 sequence\
