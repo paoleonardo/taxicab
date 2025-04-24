@@ -7,7 +7,7 @@ Taxicab(n) - or T(n) - is the smallest number expressible as a sum of two positi
 
 **FR**\
 Le plus petit nombre T(n) qui est la somme de 2 cubes entiers positifs (x<sub>i</sub> et x'<sub>i</sub>) de n façons, soit T(n) = x<sub>i</sub>^3 + x'<sub>i</sub>^3.\
-Ci-dessous, l'ensemble des solutions classées par ordre croissant de valeurs et décroissant de n.
+Ci-dessous, l'ensemble des solutions classées par ordre croissant de valeurs de x<sub>i</sub> et décroissant de n.
 
 **Remarques**
 - Les valeurs x<sub>i</sub> (sauf pour x<sub>1</sub>) ont un rapport de **79** entre T(5) et T(6)
