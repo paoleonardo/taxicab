@@ -19,7 +19,7 @@ Ci-dessous, l'ensemble des solutions classées par ordre croissant des valeurs d
 - Si on multiplie les x<sub>i</sub> de T(5) par **79** ou **139** ou un multiple de 79 ou un multiple de 139, on obtient un multiple de T(6)
 - Certains x<sub>i</sub> ont une différence multiple de **11**: {1,12}, {414,436}, {331954,365757}, {27093208,28906206}
   - de même pour: {255,167}, {13322,2421}, {231518,38787}, {26590452,582162}
-- Sauf pour T(1), on a un couple de x<sub>i</sub> (espacés de 2 termes) multiples de **3** (et donc leur différence aussi): {9,12}, {228,423}, {10200,18072}, {221424,336588}, {1766742096,2685635652}
+- Sauf pour T(1), il y a plusieurs x<sub>i</sub> multiples de **3** mais on peut constater un couple de x<sub>i</sub> (espacés de 2 termes) multiples de **3** (et donc leur différence aussi): {9,12}, {228,423}, {10200,18072}, {221424,336588}, {1766742096,2685635652}
 
 ----
 T(9) <= 136897813798023990395783317207361432493888\
