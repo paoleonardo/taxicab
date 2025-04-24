@@ -3,6 +3,7 @@
 **EN**\
 Refers to https://oeis.org/A011541 sequence\
 See also http://www.christianboyer.com/taxicab/
+Taxicab(n) - or a(n) - is the smallest number expressible as a sum of two positive cubes in n different ways.
 
 **FR**\
 Le plus petit nombre a(n) qui est la somme de 2 cubes entiers positifs (x<sub>i</sub> et x'<sub>i</sub>) de n façons, soit a(n) = x<sub>i</sub>^3 + x'<sub>i</sub>^3.\
