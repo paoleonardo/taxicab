@@ -12,6 +12,7 @@ Ci-dessous, l'ensemble des solutions classées par ordre croissant de valeurs et
 - Les valeurs x<sub>i</sub> (sauf pour x<sub>3</sub>) ont un rapport de **101** entre a(6) et a(7)
 - Si on multiplie les x<sub>i</sub> de a(5) par **79** ou **139** ou un multiple de 79 ou un multiple de 139, on obtient un multiple de a(6)
 - Certains x<sub>i</sub> ont une différence multiple de **11**: {1,12}, {414,436}, {331954,365757}, {27093208,28906206}
+  - de même pour: {255,167}, {13322,2421}, {231518,38787}, {26590452,582162}
 - Sauf pour a(1), on a un couple de x<sub>i</sub> (espacés de 2 termes) multiples de **3**: {9,12}, {228,423}, {10200,18072}, {221424,336588}, {1766742096,2685635652}
 
 ----
