@@ -3,26 +3,26 @@
 **EN**\
 Refers to https://oeis.org/A011541 sequence\
 See also http://www.christianboyer.com/taxicab/ and http://www.christianboyer.com/taxicab/TaxicabUpperBounds.pdf \
-Taxicab(n) - or a(n) - is the smallest number expressible as a sum of two positive cubes in n different ways.
+Taxicab(n) - or T(n) - is the smallest number expressible as a sum of two positive cubes in n different ways.
 
 **FR**\
-Le plus petit nombre a(n) qui est la somme de 2 cubes entiers positifs (x<sub>i</sub> et x'<sub>i</sub>) de n façons, soit a(n) = x<sub>i</sub>^3 + x'<sub>i</sub>^3.\
+Le plus petit nombre T(n) qui est la somme de 2 cubes entiers positifs (x<sub>i</sub> et x'<sub>i</sub>) de n façons, soit T(n) = x<sub>i</sub>^3 + x'<sub>i</sub>^3.\
 Ci-dessous, l'ensemble des solutions classées par ordre croissant de valeurs et décroissant de n.
 
 **Remarques**
-- Les valeurs x<sub>i</sub> (sauf pour x<sub>1</sub>) ont un rapport de **79** entre a(5) et a(6)
-- Les valeurs x<sub>i</sub> (sauf pour x<sub>3</sub>) ont un rapport de **101** entre a(6) et a(7)
-- Les valeurs x<sub>i</sub> (sauf pour x<sub>8</sub>) ont un rapport de **127** entre a(7) et a(8)
-- Les valeurs x<sub>i</sub> (sauf pour x<sub>2</sub>) ont un rapport de **139** entre a(8) et a(9)
+- Les valeurs x<sub>i</sub> (sauf pour x<sub>1</sub>) ont un rapport de **79** entre T(5) et T(6)
+- Les valeurs x<sub>i</sub> (sauf pour x<sub>3</sub>) ont un rapport de **101** entre T(6) et T(7)
+- Les valeurs x<sub>i</sub> (sauf pour x<sub>8</sub>) ont un rapport de **127** entre T(7) et T(8)
+- Les valeurs x<sub>i</sub> (sauf pour x<sub>2</sub>) ont un rapport de **139** entre T(8) et T(9)
   - ...
-- La valeur de x<sub>1</sub> pour a(n+1) est supérieure (ou égale pour a(2)) à celle de x'<sub>1</sub> pour a(n)
-- Si on multiplie les x<sub>i</sub> de a(5) par **79** ou **139** ou un multiple de 79 ou un multiple de 139, on obtient un multiple de a(6)
+- La valeur de x<sub>1</sub> pour T(n+1) est supérieure (ou égale pour T(2)) à celle de x'<sub>1</sub> pour T(n)
+- Si on multiplie les x<sub>i</sub> de T(5) par **79** ou **139** ou un multiple de 79 ou un multiple de 139, on obtient un multiple de T(6)
 - Certains x<sub>i</sub> ont une différence multiple de **11**: {1,12}, {414,436}, {331954,365757}, {27093208,28906206}
   - de même pour: {255,167}, {13322,2421}, {231518,38787}, {26590452,582162}
-- Sauf pour a(1), on a un couple de x<sub>i</sub> (espacés de 2 termes) multiples de **3** (et donc leur différence aussi): {9,12}, {228,423}, {10200,18072}, {221424,336588}, {1766742096,2685635652}
+- Sauf pour T(1), on a un couple de x<sub>i</sub> (espacés de 2 termes) multiples de **3** (et donc leur différence aussi): {9,12}, {228,423}, {10200,18072}, {221424,336588}, {1766742096,2685635652}
 
 ----
-a(9) <= 136897813798023990395783317207361432493888\
+T(9) <= 136897813798023990395783317207361432493888\
 x<sub>1</sub> = 1037967484386 = 2 * 3 * 7 * 83 * 101 * 127 * 139 * 167\
 x<sub>2</sub> = 4076877805588 = 2^2 * 7 * 79 * 101 * 127 * 143687\
 x<sub>3</sub> = 5463276442869 = 3 * 7 * 79 * 101 * 127 * 139 * 1847\
@@ -42,7 +42,7 @@ x'<sub>3</sub> = 51518075693259 = 3 * 7 * 79 * 101 * 127 * 139 * 17417\
 x'<sub>2</sub> = 51530042142656 = 2^6 * 7 * 11 * 17 * 79 * 101 * 127 * 607\
 x'<sub>1</sub> = 51538406706318 = 2 * 3 * 7 * 101 * 127 * 139 * 311 * 2213
 
-a(8) <= 50974398750539071400590819921724352\
+T(8) <= 50974398750539071400590819921724352\
 x<sub>1</sub> = 7467391974 = 2 * 3 * 7 * 83 * 101 * 127 * 167\
 x<sub>2</sub> = 39304147071 = 3 * 7 * 79 * 101 * 127 * 1847\
 x<sub>3</sub> = 58360453256 = 2^3 * 7 * 127 * 8205913\
@@ -60,7 +60,7 @@ x'<sub>3</sub> = 370298338396 = 2^2 * 7 * 127 * 191 * 457 * 1193\
 x'<sub>2</sub> = 370633638081 = 3 * 7 * 79 * 101 * 127 * 17417\
 x'<sub>1</sub> = 370779904362 = 2 * 3 * 7 * 101 * 127 * 311 * 2213
 
-a(7) <= 24885189317885898975235988544\
+T(7) <= 24885189317885898975235988544\
 x<sub>1</sub> = 58798362 = 2 * 3 * 7 * 83 * 101 * 167\
 x<sub>2</sub> = 309481473 = 3 * 7 * 79 * 101 * 1847\
 x<sub>3</sub> = 459531128 = 2^3 * 7 * 8205913\
@@ -76,7 +76,7 @@ x'<sub>3</sub> = 2915734948 = 2^2 * 7 * 191 * 457 * 1193\
 x'<sub>2</sub> = 2918375103 = 3 * 7 * 79 * 101 * 17417\
 x'<sub>1</sub> = 2919526806 = 2 * 3 * 7 * 101 * 311 * 2213
 
-a(6) = 24153319581254312065344\
+T(6) = 24153319581254312065344\
 x<sub>1</sub> = 582162 = 2 * 3 * 7 * 83 * 167\
 x<sub>2</sub> = 3064173 = 3 * 7 * 79 * 1847\
 x<sub>3</sub> = 8519281 = 79 * 107839\
@@ -90,7 +90,7 @@ x'<sub>3</sub> = 28657487 = 79 * 362753\
 x'<sub>2</sub> = 28894803 = 3 * 7 * 79 * 17417\
 x'<sub>1</sub> = 28906206 = 2 * 3 * 7 * 311 * 2213
 
-a(5) = 48988659276962496\
+T(5) = 48988659276962496\
 x<sub>1</sub> = 38787 = 3 * 7 * 1847\
 x<sub>2</sub> = 107839 = 107839\
 x<sub>3</sub> = 205292 = 2^2 * 17 * 3019\
@@ -102,7 +102,7 @@ x'<sub>3</sub> = 342952 = 2^3 * 163 * 263\
 x'<sub>2</sub> = 362753 = 362753\
 x'<sub>1</sub> = 365757 = 3 * 7 * 17417
 
-a(4) = 6963472309248\
+T(4) = 6963472309248\
 x<sub>1</sub> = 2421 = 3^2 * 269\
 x<sub>2</sub> = 5436 = 2^2 * 3^2 * 151\
 x<sub>3</sub> = 10200 = 2^3 * 3 * 5^2 * 17\
@@ -112,7 +112,7 @@ x'<sub>3</sub> = 18072 = 2^3 * 3^2 * 251\
 x'<sub>2</sub> = 18948 = 2^2 * 3 * 1579\
 x'<sub>1</sub> = 19083 = 3 * 6361
 
-a(3) = 87539319\
+T(3) = 87539319\
 x<sub>1</sub> = 167 = 167\
 x<sub>2</sub> = 228 = 2^2 * 3 * 19\
 x<sub>3</sub> = 255 = 3 * 5 * 17\
@@ -120,12 +120,12 @@ x'<sub>3</sub> = 414 = 2 * 3^2 * 23\
 x'<sub>2</sub> = 423 = 3^2 * 47\
 x'<sub>1</sub> = 436 = 2^2 * 109
 
-a(2) = 1729\
+T(2) = 1729\
 x<sub>1</sub> = 1\
 x<sub>2</sub> = 9 = 3^2\
 x'<sub>2</sub> = 10 = 2 * 5\
 x'<sub>1</sub> = 12 = 2^2 * 3
 
-a(1) = 2\
+T(1) = 2\
 x<sub>1</sub> = 1\
 x'<sub>1</sub> = 1
