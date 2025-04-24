@@ -1,7 +1,8 @@
 # taxicab
 
 **EN**\
-Refers to https://oeis.org/A011541 sequence
+Refers to https://oeis.org/A011541 sequence\
+See also http://www.christianboyer.com/taxicab/
 
 **FR**\
 Le plus petit nombre a(n) qui est la somme de 2 cubes entiers positifs (x<sub>i</sub> et x'<sub>i</sub>) de n façons, soit a(n) = x<sub>i</sub>^3 + x'<sub>i</sub>^3.\
