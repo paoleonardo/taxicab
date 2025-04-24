@@ -1,7 +1,7 @@
 # Taxicab numbers and their prime factor decomposition
 
 **EN**\
-Refers to https://oeis.org/A011541 sequence\
+Refers to https://oeis.org/A011541 sequence.\
 See also http://www.christianboyer.com/taxicab/ and http://www.christianboyer.com/taxicab/TaxicabUpperBounds.pdf \
 Taxicab(n) - or T(n) - is the smallest number expressible as a sum of two positive cubes in n different ways.
 
