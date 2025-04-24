@@ -20,6 +20,7 @@ Ci-dessous, l'ensemble des solutions classées par ordre croissant des valeurs d
 - Certains x<sub>i</sub> ont une différence multiple de **11**: {1,12}, {414,436}, {331954,365757}, {27093208,28906206}
   - de même pour: {255,167}, {13322,2421}, {231518,38787}, {26590452,582162}
 - Sauf pour T(1), il y a plusieurs x<sub>i</sub> multiples de **3** mais on peut constater un couple de x<sub>i</sub> (espacés de 2 termes) multiples de **3** (et donc leur différence aussi): {9,12}, {228,423}, {10200,18072}, {221424,336588}, {1766742096,2685635652}
+- à creuser: si on prend un autre T(7) qui n'est donc pas le plus petit, par ex: {80920518, 4017962634}, {317835644, 4017310528}, {425920047, 4016377617}, {1184180059, 3983390693}, {2254311452, 3765955912}, {2431456944, 3696072828}, {2542299158,3645186874}, puis on prend la paire {x<sub>2</sub>, x'<sub>2</sub>}={317835644, 4017310528}, qu'on les divise par 79 avant de faire leur somme de cubes, on obtient 131564874138736741545024 qu'on peut décomposer en un T(6) moins petit mais dont les x<sub>i</sub> sont des multiples de 127 fois celui de T(9) mais surtout desmultiples de 139 fois celui de T(5).
 
 ----
 T(9) <= 136897813798023990395783317207361432493888\
