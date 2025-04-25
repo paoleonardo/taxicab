@@ -14,6 +14,7 @@ Ci-dessous, l'ensemble des solutions classées par ordre croissant des valeurs d
 - Les valeurs x<sub>i</sub> (sauf pour {x<sub>3</sub>,x'<sub>3</sub>}) ont un rapport de **101** entre T(6) et T(7)
 - Les valeurs x<sub>i</sub> (sauf pour {x<sub>8</sub>,x'<sub>8</sub>}) ont un rapport de **127** entre T(7) et T(8)
 - Les valeurs x<sub>i</sub> (sauf pour {x<sub>2</sub>,x'<sub>2</sub>}) ont un rapport de **139** entre T(8) et T(9)
+- Les valeurs x<sub>i</sub> (sauf pour {x<sub>2</sub>,x'<sub>2</sub>}) ont un rapport de **13 * 29** entre T(9) et T(10)
   - ...
 - La valeur de x<sub>1</sub> pour T(n+1) est supérieure (ou égale pour T(2)) à celle de x'<sub>1</sub> pour T(n)
 - Si on multiplie les x<sub>i</sub> de T(5) par **79** ou **139** ou un multiple de 79 ou un multiple de 139, on obtient un multiple de T(6)
