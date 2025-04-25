@@ -10,10 +10,10 @@ Le plus petit nombre T(n) qui est la somme de 2 cubes entiers positifs (x<sub>i<
 Ci-dessous, l'ensemble des solutions classées par ordre croissant des valeurs de x<sub>i</sub> et décroissant de n.
 
 **Remarques**
-- Les valeurs x<sub>i</sub> (sauf pour x<sub>1</sub>) ont un rapport de **79** entre T(5) et T(6)
-- Les valeurs x<sub>i</sub> (sauf pour x<sub>3</sub>) ont un rapport de **101** entre T(6) et T(7)
-- Les valeurs x<sub>i</sub> (sauf pour x<sub>8</sub>) ont un rapport de **127** entre T(7) et T(8)
-- Les valeurs x<sub>i</sub> (sauf pour x<sub>2</sub>) ont un rapport de **139** entre T(8) et T(9)
+- Les valeurs x<sub>i</sub> (sauf pour {x<sub>1</sub>,x'<sub>1</sub>}) ont un rapport de **79** entre T(5) et T(6)
+- Les valeurs x<sub>i</sub> (sauf pour {x<sub>3</sub>,x'<sub>3</sub>}) ont un rapport de **101** entre T(6) et T(7)
+- Les valeurs x<sub>i</sub> (sauf pour {x<sub>8</sub>,x'<sub>8</sub>}) ont un rapport de **127** entre T(7) et T(8)
+- Les valeurs x<sub>i</sub> (sauf pour {x<sub>2</sub>,x'<sub>2</sub>}) ont un rapport de **139** entre T(8) et T(9)
   - ...
 - La valeur de x<sub>1</sub> pour T(n+1) est supérieure (ou égale pour T(2)) à celle de x'<sub>1</sub> pour T(n)
 - Si on multiplie les x<sub>i</sub> de T(5) par **79** ou **139** ou un multiple de 79 ou un multiple de 139, on obtient un multiple de T(6)
